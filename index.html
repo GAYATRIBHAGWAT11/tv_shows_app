@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Search Website</title>
+</head>
+
+<body>
+
+    <div class="wrapperContainer">
+        <div class="logo">
+            <div class="container">
+                <p>Movie<span>Corn</span></p>
+            </div>
+        </div>
+        <!-- search box -->
+        <div class="searchBox">
+            <div class="searchContent">
+                <h3>Search your favourite show:</h3>
+                <input type="text" class="form" placeholder="search shows here..." id="searchBoxMovie"
+                    onkeyup="searchShows()" onclick="searchShows()">
+                <div class="list" id="list">
+                    <!-- list of shows -->
+                    <!-- <div class="search-list-item">
+                    <div class="search-item-thumbnail">
+                        <img src="" alt="">
+                    </div>
+                    <div class="search-item-info">
+                        <h3>after the throns</h3>
+                        <p>2016</p>
+                    </div> 
+                </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- search container over -->
+
+        <div class="container">
+            <div class="result">
+                <div class="result-grid" id="result-grid">
+                    <!-- show info -->
+                    <!-- <div class="show-poster">
+                    <img src="" alt="">
+                </div>
+                <div class="show-info">
+                    <h3 class="show-title">after the throns</h3>
+                    <ul class="show-misc-info">
+                        <li class="year">year:2016</li>
+                        <li class="rated">Ratings:PG_13</li>
+                        <li class="released">Released:05 May 2016</li>
+                    </ul>
+                    <p class="genre"><b>Genre:</b>Action,Adventure,Comedy</p>
+                    <p class="writer"><b>Writers:</b> James Gunn, Don Abnett, Andy Lanning</p>
+                    <p class="actors"><b>Actors:</b> James Gunn, Don Abnett, Andy Lanning</p>
+                    <p class="plot"><b>Plot:</b> James Gunn, Don Abnett, Andy Lanning</p>
+                    <p class="language"><b>Language:</b> English</p>
+                    <p class="awards"><b><i class="fas fa-award"></i></b>Nominated for 1 Oscar</p>
+                </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
