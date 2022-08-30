@@ -53,13 +53,13 @@ img{
     position: relative;
 }
 .searchContent h3{
-    text-align: center;
+    -ms-flex-item-align: center;
     align-self: center;
-    margin-right: 1rem;
-    font-size: 2rem;
-    color: #fff;
-    font-weight: 500;
-    margin-bottom: 1.5rem;
+margin-right: 1rem;
+font-size: 2rem;
+color: #fff;
+font-weight: 500;
+margin-bottom: 1.5rem;
 
 }
 
@@ -161,7 +161,7 @@ padding: 1rem;
     border-radius: 3px;
     font-weight: 600;
 }
-.show-info .released{
+.show-info .premiered{
     font-size: 0.5rem;
     margin: 1 rem 0;
 }
@@ -170,7 +170,7 @@ padding: 1rem;
     padding: 0.5rem;
     margin: 1rem 0;
 }
-.movie-info .genre{
+.movie-info .genres{
     background-color: var(--light-dark-color);
     display: inline-block;
     padding: 0.5rem;
@@ -250,11 +250,5 @@ padding: 1rem;
                 justify-content: flex-start;
         padding-left: 0;
     }
-    .show-info .plot{
-        margin-left: 0;
-    }
-    .show-info .writer{
-        padding-left: 0;
-        margin-left: 0;
-    }
+
 }
